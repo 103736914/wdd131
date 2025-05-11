@@ -3,6 +3,16 @@ body {
     margin: 50px;
     border: 1px solid grey;
     padding: 80px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dark {
+    background-color: #333;
+    color: white;
+}
+
+.dark h2 {
+    color: #4F9ACF;
 }
 
 /* Heading */
@@ -16,11 +26,15 @@ header {
 
 h1 {
     font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 h2 {
     color: #006EB6;
     font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 /* Page text */
